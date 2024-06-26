@@ -43,9 +43,9 @@ class NitroGen:
             for future in futures:
                 status_code, code = future.result()
                 if status_code == 200:
-                    print(f"Funcional | {code}")
+                    print(f"Funcional / Working| {code}")
                 else:
-                    print(f"No sirve | {code}")
+                    print(f"No sirve / Dont work| {code}")
 
     def main(self):
         self.clear_screen()
