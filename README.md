@@ -21,19 +21,18 @@ Este es un generador y verificador de códigos de Discord Nitro desarrollado en 
 
    ```bash
    git clone https://github.com/tu_usuario/nitro-generator.git
-   cd nitro-generator```
+   cd nitro-generator
 
 Instala las dependencias:
 
-bash
+```bash
 Copiar código
 pip install -r requirements.txt
+
 Uso
 Ejecuta el script nitrogen.py e interactúa con la interfaz para generar y verificar códigos de Discord Nitro.
+```python nitrogen.py
 
-bash
-Copiar código
-python nitrogen.py
 Contribución
 Si deseas contribuir a este proyecto, ¡eres bienvenido! Abre un issue o envía una pull request.
 
