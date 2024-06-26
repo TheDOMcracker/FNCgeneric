@@ -127,27 +127,26 @@ This is a Discord Nitro code generator and verifier developed in Python. It allo
 
 ## Linux/Debian based installation
 1. Install the required packages:
-   - **Linux:**
-     ````bash
+    **Linux:**
+     ```bash
      sudo apt install git python3 -y
      ```
-   - Thermux:**
-     ````bash
+   **Termux:**
+     ```bash
      pkg install git python3 -y
      ```
-
 2. Clone the repository:
-   ````bash
+   ```bash
    git clone https://github.com/TheDOMcracker/FNCgeneric.git
    cd FNCgeneric
    ```
 Install the dependencies:
-````bash
+```bash
 pip install -r requirements.txt
 ```
 Execute script:
 Run the NITRO.py script and interact with the interface to generate and verify Discord Nitro codes.
-````bash
+```bash
 python3 NITRO.py
 ```
 
@@ -163,11 +162,11 @@ python3 NITRO.py
 4. Press ![Windows Emoji](https://img.icons8.com/?size=18w&id=gXoJoyTtYXFg&format=png) + `R`, type `cmd` and press `ENTER`.
 
 5. Navigate to the project folder (replace `User` with the user you are using on your pc).
-````bash
+```bash
 cd C:\Users/USer/ownloads/FNCgeneric-main
 ```
 6. Install Python
-For 64-bit systems:** ** ````bash cd C:\Users
+**For 64-bit systems:**
 ````bash
 curl -o python-installer.exe https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe
 ```
