@@ -25,7 +25,7 @@ class NitroGen:
 
     def generate_codes(self, amount):
         with open(self.fileName, "w", encoding="utf-8") as txtfile:
-            print("Porfavor espera, se estan generando los cógidos nitro...")
+            print("Porfavor espera.... / Please wait....")
             time_taken = time.time()
             for _ in range(amount):
                 code = "".join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k=16))
