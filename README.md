@@ -4,6 +4,8 @@
 
 Este es un generador y verificador de códigos de Discord Nitro desarrollado en Python. Permite generar códigos aleatorios y verificar su validez utilizando la API de Discord.
 
+---
+
 ## Funcionalidades
 - **Generación de Códigos:** Genera códigos de Discord Nitro válidos de manera aleatoria.
 - **Verificación de Códigos:** Verifica la validez de los códigos generados mediante la API de Discord.
@@ -16,7 +18,9 @@ Este es un generador y verificador de códigos de Discord Nitro desarrollado en 
 - Bibliotecas: `os`, `random`, `requests`, `string`, `time`
 - Terminal Linux (recomendado), Windows o Mac
 - Conexión a internet
+  
 ---
+
 ## Instalación en Linux/Debian based
 1. Instala los paquetes necesarios:
    - **Linux:**
@@ -43,3 +47,13 @@ Ejecuta el script nitrogen.py e interactúa con la interfaz para generar y verif
 python3 nitrogen.py
 ```
 
+---
+
+## Instalación en Windows
+1. Clickea en el botón `CODE` y selecciona `Download ZIP`.
+
+2. Dirigete a tu explorador de archivos y clickea en la carpeta `Downloads` o `Descargas`
+
+3. Haz click izquierdo sobre el archivo comprimido y luego haz click derecho y selecciona `Extract here` o `Extraer aqui`
+
+4. Presiona ![Windows Emoji](https://iconduck.com/icons/27679/windows?shared)
