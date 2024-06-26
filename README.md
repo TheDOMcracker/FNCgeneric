@@ -16,9 +16,7 @@ Este es un generador y verificador de códigos de Discord Nitro desarrollado en 
 - Bibliotecas: `os`, `random`, `requests`, `string`, `time`
 - Terminal Linux (recomendado), Windows o Mac
 - Conexión a internet
-
 ---
-
 ## Instalación en Linux/Debian based
 1. Instala los paquetes necesarios:
    - **Linux:**
@@ -36,14 +34,12 @@ Este es un generador y verificador de códigos de Discord Nitro desarrollado en 
    cd FNCgeneric
    ```
 3.Instala las dependencias:
-
-bash
-Copiar código
+```bash
 pip install -r requirements.txt
-Ejecutar script:
+```
+4.Ejecutar script:
 Ejecuta el script nitrogen.py e interactúa con la interfaz para generar y verificar códigos de Discord Nitro.
-
-bash
-Copiar código
+```bash
 python3 nitrogen.py
+```
 
