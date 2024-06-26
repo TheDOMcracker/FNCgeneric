@@ -19,7 +19,7 @@ Este es un generador y verificador de códigos de Discord Nitro desarrollado en 
 1. Instala los paquetes necesarios
 *Linux*
    ```bash
-sudo apt install git python3 -y
+ sudo apt install git python3 -y
 
 *Termux*
    ```bash
