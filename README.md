@@ -56,4 +56,5 @@ python3 nitrogen.py
 
 3. Haz click izquierdo sobre el archivo comprimido y luego haz click derecho y selecciona `Extract here` o `Extraer aqui`
 
-4. Presiona ![Windows Emoji](https://iconduck.com/icons/27679/windows?shared)
+4. Presiona ![Windows Emoji](https://www.flaticon.com/free-icon/windows_732225?related_id=732076&origin=search)
+)
