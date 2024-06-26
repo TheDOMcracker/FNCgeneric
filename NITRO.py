@@ -38,7 +38,7 @@ class NitroGen:
         return response.status_code, code
 
     def checker(self):
-        with ThreadPoolExecutor(max_workers=10) as executor, open(self.fileName, "r", encoding="utf-8") as txtfile:
+        with ThreadPoolExecutor(max_workers=50) as executor, open(self.fileName, "r", encoding="utf-8") as txtfile:
             futures = [executor.submit(self.check_code, code) for code in txtfile.readlines()]
             for future in futures:
                 status_code, code = future.result()
@@ -58,7 +58,7 @@ class NitroGen:
    |_|  |_| |_|\___|_____/ \____/|_|  |_/_/    \_\_|_| |_| |_|_|_|  \__,_|_| |_|\__|"""                                               
         print(baner)
               
-        amount = int(input("Cuántos códigos quieres generar y verificar?: "))
+        amount = int(input("Cuántos códigos quieres generar y verificar? / How many codes do you want generate and check?: "))
         self.generate_codes(amount)
         self.checker()
 
