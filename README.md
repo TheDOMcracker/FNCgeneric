@@ -12,26 +12,32 @@ Este es un generador y verificador de códigos de Discord Nitro desarrollado en 
 
 ## Requisitos
 
-- Python 3.8 o superior
-- Bibliotecas: `requests`
+- Python 3.5 o superior
+- Bibliotecas: `os` `random` `requests` `string` `time`
+- Terminal Linux (recomendado), Windows o Mac
+- Conexión a internet
+---
+## Instalación en Linux/Debian based
 
-## Instalación
-
-1. Clona el repositorio:
-
+1. Instala los paquetes necesarios
+*Linux*
    ```bash
-   git clone https://github.com/tu_usuario/nitro-generator.git
-   cd nitro-generator
+sudo apt install git python3 -y
 
-Instala las dependencias:
+*Termux*
+   ```bash
+pkg install git python3 -y
+3. Clona el repositorio:
+   ```bash
+   git clone https://github.com/TheDOMcracker/FNCgeneric.git
+   cd FNCgeneric
 
-```bash
-Copiar código
-pip install -r requirements.txt
+3.Instala las dependencias:
+```pip install -r requirements.txt
 
 Uso
 Ejecuta el script nitrogen.py e interactúa con la interfaz para generar y verificar códigos de Discord Nitro.
-```python nitrogen.py
+```python3 nitrogen.py
 
 Contribución
 Si deseas contribuir a este proyecto, ¡eres bienvenido! Abre un issue o envía una pull request.
