@@ -155,15 +155,15 @@ python3 NITRO.py
 ## Installation on Windows
 1. In this github project, click on the `CODE` button and select `Download ZIP`.
 
-2. Go to your file explorer and click on the `Downloads` or `Downloads` folder.
+2. Go to your file explorer and click on the `Downloads`  folder.
 
-3. Left click on the compressed file and then right click and select `Extract here` or `Extract here`.
+3. Left click on the compressed file and then right click and select `Extract here`.
 
 4. Press ![Windows Emoji](https://img.icons8.com/?size=18w&id=gXoJoyTtYXFg&format=png) + `R`, type `cmd` and press `ENTER`.
 
 5. Navigate to the project folder (replace `User` with the user you are using on your pc).
 ```bash
-cd C:\Users/USer/ownloads/FNCgeneric-main
+cd C:\Users/User/Downloads/FNCgeneric-main
 ```
 6. Install Python
 **For 64-bit systems:**
