@@ -202,3 +202,4 @@ If you want to contribute to this project, you are welcome! Open an issue or sen
 
 ## License
 This project is licensed under the [MIT] License (https://github.com/TheDOMcracker/FNCgeneric/blob/main/LICENSE). You may use and modify it freely, with attribution to the original author.
+
